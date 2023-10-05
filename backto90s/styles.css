@@ -1,0 +1,30 @@
+body  {
+  position:relative;
+    background-image: url("starsky.gif");
+    background-color: #cccccc;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 1000px; /* You must set a specified height */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  }
+ 
+  h1 {color: rgb(255, 255, 255);
+    position:absolute;
+    left:50%;
+    top:20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  marquee {
+    position:absolute;
+    margin-top:15%; 
+    color:white;
+  }
+  img{
+   height:400px;
+   position:absolute;
+   left:50%;
+   top:50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
