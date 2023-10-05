@@ -8,10 +8,18 @@ body  {
   background-size: cover; /* Resize the background image to cover the entire container */
   }
  
-  h1 {color: rgb(255, 255, 255);
+  h1{color: rgb(255, 255, 255);
     position:absolute;
     left:50%;
     top:20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  h2{
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left:50%;
+    top:25%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
